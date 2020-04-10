@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>OU KONNEN GERARD FOMBRUN</pattern>
+	<template>fombrun gerad</template>
+</category>
+
+<category>
+	<pattern>HELLO</pattern>
+	<template>Hi there</template>
+</category>
+
+<category>
+	<pattern>BONJOU</pattern>
+	<template>Kou m an nou ye</template>
+</category>
+
+<category>
+	<pattern>BONJOU</pattern>
+	<template>Kou m an u ye</template>
+</category>
+
+<category>
+	<pattern>PI BON PASE OU</pattern>
+	
+	<template>Tout bagay relatif</template>
+</category>	
+
+</aiml>

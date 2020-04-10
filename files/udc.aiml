@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>TELL ME ABOUT</pattern>
+    <template>
+        here some information about <star/>.
+        <button>
+            <text>Cliquea aquÃ­</text>
+            <url>https://en.wikipedia.org/wiki<star/></url>
+        </button>
+    </template>
+</category>https://widget.pandorabots.com/prod/pb-launcher-icon.svg
+<category>
+    <pattern>DO YOU KNOW WHO * IS</pattern>
+    <template><srai>WHO IS <star/></srai></template>
+</category>
+<category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+         <li>Mwen pa gen repons pou sa2</li>
+         <li> Mwen pa gen repons pou sa1 </li>
+         </random>
+        </template>
+</category>
+</aiml>

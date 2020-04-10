@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+ <category>
+      <pattern>My name is *</pattern>
+      <template>
+         Hello!<think><set name = "username"> <star/></set></think>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>Byeee</pattern>
+      <template>
+         Hi <get name = "username"/> gracias por la conversacion!
+      </template>  
+   </category>  
+</aiml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template>
+        here some information about <star/>.
+        <button>
+            <text>Cliquea aquÃ­</text>
+            <url>https://en.wikipedia.org/wiki<star/></url>
+        </button>
+    </template>
+</category>
+	
+</aiml>
